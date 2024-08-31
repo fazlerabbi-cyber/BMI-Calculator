@@ -5,9 +5,10 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-color: ivory;
 }
 .container{
-    background-color: darkcyan;
+  background-color: aqua;
     padding: 20px;
     border-radius: 10px;
 
@@ -22,6 +23,7 @@ body{
     padding: 5px;
     border-radius: 5px;
     border: none;
+    width: 90%;
 }
 button{
     padding: 10px;
@@ -32,12 +34,17 @@ button{
 label{
     display: block;
     margin-top: 10px;
+    margin-bottom: 5px;
 }
 button:hover{
-    background-color: beige;
+    background-color: oldlace;
+}
+h1{
+ color:orangered;
+  
 }
 #result{
     margin-top: 15px;
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
 }
